@@ -1,0 +1,47 @@
+.blognav {
+  background-color: blueviolet;
+  padding: 10px 20px;
+  color: #fff;
+}
+.form-wapper {
+  width: 70%;
+  margin: auto;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  padding: 20px;
+}
+form button {
+  width: 100%;
+}
+
+form div input:focus {
+  box-shadow: none !important;
+  /* outline: none; */
+  /* border: none; */
+}
+textarea {
+  border: 1px solid blueviolet;
+  width: 100%;
+  resize: none;
+  margin-top: 50px;
+}
+textarea:focus {
+  /* border: none; */
+  outline: none;
+}
+form button {
+  width: 20%;
+}
+.blog-wrapper,
+.blogcontent {
+  width: 68%;
+  margin: auto;
+}
+.blog-wrapper #profile {
+  width: 40px;
+  height: 40px;
+}
+.blogcontent div button {
+  color: blueviolet;
+  outline: none;
+  padding: 5px 12px;
+}
